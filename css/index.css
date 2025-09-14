@@ -1,0 +1,169 @@
+/* Navbar personalizada */
+.navbar {
+    background-color: #00274d; /* Azul-marinho */
+}
+.navbar a {
+    color: #ffffff !important; /* Branco para o texto */
+}
+.intro-section {
+    text-align: center;
+    padding: 30px 15px;
+}
+footer {
+    background-color: #00274d;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+.services .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+}
+.services .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.services .card img {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+.services .card-body {
+    text-align: center;
+    padding: 15px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white; /* Cor de fundo clara */
+    scroll-behavior: smooth;
+}
+
+/* Estilos para a Seção de Introdução */
+.intro-section {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin: 20px 0;
+}
+
+.intro-section .logo {
+    width: 500px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 20px; /* Espaço entre a logo e o texto */
+}
+
+.intro-section .intro-text {
+    margin-top: 10%;
+    max-width: 600px; /* Limita a largura do texto */
+}
+
+.intro-section h2 {
+    font-size: 35px;
+    color: #001f3f; /* Azul marinho */
+    margin: 0 0 10px 0; /* Remove margens extras */
+}
+
+.intro-section p {
+    font-size: 20px;
+    color: #333;
+    margin: 0; /* Remove margens extras */
+}
+
+
+/* Conteúdo Principal */
+.main-content {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    color: #001f3f; /* Azul marinho */
+    animation: fadeIn 1s;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #333;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 220px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.rooms {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.rooms .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 30%; /* Define a largura dos cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Levanta o card ao passar o mouse */
+}
+
+.card img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do card */
+    border-radius: 8px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.button-container a {
+    background-color: #FFD700; /* Dourado */
+    color: #001f3f; /* Azul marinho */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.button-container a:hover {
+    background-color: #fff; /* Branco em hover */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

@@ -1,0 +1,11 @@
+<?php
+session_start();
+
+// Destroi a sessão para deslogar o usuário
+session_unset();  // Limpa todas as variáveis de sessão
+session_destroy();  // Destroi a sessão
+
+// Redireciona para a página de login
+header("Location: ..\index.php");
+exit();
+?>

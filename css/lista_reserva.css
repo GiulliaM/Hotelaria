@@ -1,0 +1,52 @@
+
+/* Estilos gerais para o conteúdo */
+*{
+    font-family: Arial, sans-serif;
+}
+
+.conteudo {
+    
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Cor de fundo branca */
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd; /* Bordas cinzas para as células */
+    font-family: Arial, sans-serif;
+}
+
+th {
+    background-color: #003366; /* Azul marinho para o cabeçalho */
+    color: white; /* Texto branco */
+    font-family: Arial, sans-serif;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Linhas alternadas em cinza claro */
+}
+
+tr:hover {
+    background-color: #e0e0e0; /* Efeito de hover */
+}
+
+.update a {
+    color: #003366; /* Azul marinho para os links */
+    text-decoration: none; /* Sem underline */
+}
+
+.update a:hover {
+    text-decoration: underline; /* Subtração no hover */
+}

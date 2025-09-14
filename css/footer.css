@@ -1,0 +1,16 @@
+footer {
+    background-color: #1a1a2e; /* Fundo azul marinho escuro */
+    color: #f0f0f5; /* Cor do texto clara */
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer-content p {
+    margin: 8px 0; /* Espaçamento entre as linhas */
+    font-weight: 300; /* Fonte leve para um visual elegante */
+}
+
+.footer-content p:first-child {
+    font-weight: 400; /* Fonte um pouco mais forte para o nome e ano */
+}

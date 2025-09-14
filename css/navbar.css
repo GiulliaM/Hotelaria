@@ -1,0 +1,30 @@
+/* Navbar */
+.navbar {
+    background-color: #001f3f; /* Azul marinho */
+    color: #FFD700; /* Dourado */
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens ao centro */
+    padding: 10px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    margin-right: auto; /* Empurra os links para a direita */
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-links a {
+    color: #FFD700; /* Dourado */
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.navbar-links a:hover {
+    background-color: #FFD700; /* Dourado em hover */
+    color: #001f3f; /* Azul marinho */
+}
